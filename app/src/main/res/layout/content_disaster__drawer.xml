@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Disaster_Drawer"
+    android:background="#000000"
+    tools:showIn="@layout/app_bar_disaster__drawer">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="18dp"
+        android:text="You should have a plan for any disaster. Your basic steps should be:\n\n\t\t\u2022Learn evacuation routes. Contact your local officials and find out how you should get out of your area, if you need to.\n\n\t\t\u2022With your family or household members, discuss how to prepare and respond to different types of emergencies that are most likely to occur where you live.\n\n\t\t\u2022Identify responsibilities for each member of your household and how you will work together as a team.\n\n\t\t\u2022Practice as many elements of your plan as possible.\n\nFor disaster-specific information, check out the corresponding links in the drop-down menu."
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
